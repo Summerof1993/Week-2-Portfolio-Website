@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script defer src="./assets/script.js"></script>
+</head>
+
+<body>
+    <div class="hero-image" id="home">
+        <header>
+            <h1>
+                ALE <span class="span-x">X</span>
+            </h1>
+            <nav class="navbar">
+                <ul class="navbar-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="hero-div">
+            <img src="./assets/images/IMG_20210527_213555_440.jpg" alt="Profile picture of Alex">
+            <div class="hero-text">
+            <h2>
+                I am Alex
+            </h2>
+            <p>
+                Software Developer
+            </p>
+            <button class="portfolio-button">Portfolio</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="projects">
+            <!-- Projects will go here -->
+            <h2>
+                Projects
+            </h2>
+            <div class="projects-container">
+                <div class="project-divs">
+                    <h2>
+                        Project #1
+                    </h2>
+                    <img src="https://placehold.co/400x250" alt="">
+                </div>
+                <div class="project-divs">
+                    <h2>
+                        Project #2
+                    </h2>
+                    <img src="https://placehold.co/400x250" alt="">
+                </div>
+                <div class="project-divs">
+                    <h2>
+                        Project #3
+                    </h2>
+                    <img src="https://placehold.co/400x250" alt="">
+                </div>
+                <div class="project-divs">
+                    <h2>
+                    Project #4
+                    </h2>
+                    <img src="https://placehold.co/400x250" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Aside -->
+        <aside id="about-me">
+            <h2>
+                About Me
+            </h2>
+            <p>
+                Hello, my name is Alex Rodriguez and I am a student at the 
+                University of Minnesota Coding Bootcamp. Some of the technolgies
+                I am versed in are HTML, CSS, Javascript, React, Github, and Gitbash.
+                A few of my projects and links to them can be found in the projects section. 
+                Should you have any questions, you can reach me on <span> Linkedin</span> or send
+                me a message through the contact form at the bottom of this page! 
+            </p>
+            <div class="aside-images-section">
+                <!-- wrapped images in divs to be able to center them using flexbox -->
+                <div><img src="./assets/images/html5-logo-circle-3.png" class="logos logo1" alt="HTML png logo"></div> 
+                <div><img src="./assets/images/CSS-Logo-1024x640.png" class="logos logo2" alt="CSS png logo"></div>
+                <div><img src="./assets/images/JavaScript-Logo-640x400.png" class="logos logo3" alt="Javascript png logo"></div>
+                <div><img src="./assets/images/react-logo-768x768.png" class="logos logo4" alt="React png logo"></div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- contact form in footer section -->
+    <footer>
+        <form id="contact" class="contact-form">
+            <h2>
+                You can contact me by filling out the form below!
+            </h2>
+
+            <p class="justifying-content">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="First Name, Last Name">
+            </p>
+
+            <p class="justifying-content">
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="me@example.com">
+            </p>
+
+            <p class="justifying-content">   
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Please write your message here"></textarea>
+            </p>
+         
+            <button class="contact-form-button">Submit</button>
+        </form>
+
+    </footer>
+</body>
+
+</html>
