@@ -3,7 +3,7 @@
 ## Description
 
 The motivation behind this Portfolio project was to have a place where I can showcase the skills that I have learned in the bootcamp and how I am progressing. This portfolio will hopefully show employers the skills and languages that I'm versatile on and make me employer-ready!
-
+Link to deployed application: https://summerof1993.github.io/Week-2-Portfolio-Website/
 ## Installation
 
 N/A
