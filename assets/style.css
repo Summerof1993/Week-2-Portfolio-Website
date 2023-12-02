@@ -179,6 +179,9 @@ aside h2 {
 
 .project-divs img {
     margin: auto;
+    width: 400px;
+    height: 250px;
+    
 }
 
 /* Aside */
@@ -253,11 +256,6 @@ footer {
     display: flex; */
 }
 
-/* .justifying-content {
-    display:flex;
-    flex-direction: row;
-} */
-
 p > input, textarea {
     width: 100%;
     margin: 1em;
@@ -289,10 +287,27 @@ p > input, textarea {
                 0 0 90px 3px #d029c2; */
 }
 
-/* Why does textarea grab the text area for message?
-and why doesn't focus and active work? */
 input:hover, #message:hover,
 input:focus, #message:focus,
 input:active, #message:active {
     border: 1px dotted rgb(241, 8, 8);
+}
+
+/* Media Queries */
+@media all and (max-width: 540px) {
+    main{
+        flex-direction: column;
+    }
+    #home{ 
+        order: 0;
+    }
+    #projects {
+        order: 2;
+    }
+    #about-me {
+        display: none;
+    }
+    footer { 
+        order: 4;
+    }
 }
